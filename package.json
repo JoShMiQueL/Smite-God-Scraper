@@ -1,0 +1,31 @@
+{
+  "name": "smite-god-scraper",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "description": "A web scraping tool for retrieving information about gods from the Smite wiki.",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts"
+  },
+  "author": "JoShMiQueL <joshmiquel.cs@gmail.com>",
+  "keywords": [
+    "smite",
+    "web scraping",
+    "gods"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.2.1",
+    "eslint": "8.40.0",
+    "puppeteer-extra": "3.3.6",
+    "puppeteer-extra-plugin-stealth": "2.11.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "axios": "1.4.0",
+    "cheerio": "1.0.0-rc.12",
+    "puppeteer": "20.2.1",
+    "socks-proxy-agent": "8.0.1"
+  }
+}
